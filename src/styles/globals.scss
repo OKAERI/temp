@@ -1,0 +1,21 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+	background-color: #e6ddd3;
+}
+
+.grid {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #29251f;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
